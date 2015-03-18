@@ -12,5 +12,6 @@
     <string name="ok">Ok</string>
     <string name="cancel">Cancel</string>
     <string name="title_activity_aty_game">aty_game</string>
+    <string name="actionbar_transverse">transverse</string>
 
 </resources>
