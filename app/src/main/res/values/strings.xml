@@ -4,5 +4,13 @@
     <string name="app_name">Game7plus7</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="resume_game">resume game</string>
+    <string name="new_game">new game</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="dialog_text">Starting a new game will erase your previous game.</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_aty_game">aty_game</string>
 
 </resources>
