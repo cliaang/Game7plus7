@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-public class atyWelCome extends Activity {
+public class AtyWelcome extends Activity {
     private boolean hasSaved = true;
     private Button btnResume;
     private Button btnNewGame;
@@ -35,7 +35,7 @@ public class atyWelCome extends Activity {
     //inputMessage :
     //Config.START_GAME Config.RESUME_GAME
     public  void startGame(int inputMessage){
-        Intent i = new Intent(atyWelCome.this,atyGame.class);
+        Intent i = new Intent(AtyWelcome.this,AtyGame.class);
         i.putExtra(Config.START_OR_RESUME_GAME,inputMessage);
         startActivity(i);
     }

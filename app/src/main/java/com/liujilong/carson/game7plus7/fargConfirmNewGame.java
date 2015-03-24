@@ -15,7 +15,7 @@ public class fargConfirmNewGame extends DialogFragment {
                 .inflate(R.layout.dialog_confirm_new_game,null))
                 .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        ((atyWelCome)getActivity()).startGame(Config.START_GAME);
+                        ((AtyWelcome)getActivity()).startGame(Config.START_GAME);
                     }
                 })
                 .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {

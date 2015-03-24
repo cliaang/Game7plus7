@@ -1,18 +1,19 @@
 package com.liujilong.carson.game7plus7;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class atyGame extends ActionBarActivity {
-
+public class AtyGame extends Activity {
+    private ViewGame mView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.aty_game);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        mView = new ViewGame(this);
+        setContentView(mView);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 
