@@ -7,11 +7,11 @@ import android.view.MenuItem;
 
 
 public class AtyGame extends Activity {
-    private ViewGame mView;
+    private MainView mView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mView = new ViewGame(this);
+        mView = new MainView(this);
         setContentView(mView);
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
